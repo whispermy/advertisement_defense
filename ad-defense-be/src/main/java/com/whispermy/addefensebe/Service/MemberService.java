@@ -1,8 +1,8 @@
-package com.whispermy.advertise.Service;
+package com.whispermy.addefensebe.Service;
 
-import com.whispermy.advertise.Domain.Member;
-import com.whispermy.advertise.Dto.MemberDto;
-import com.whispermy.advertise.Repository.MemberRepository;
+import com.whispermy.addefensebe.Domain.Member;
+import com.whispermy.addefensebe.Dto.MemberDto;
+import com.whispermy.addefensebe.Repository.MemberRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

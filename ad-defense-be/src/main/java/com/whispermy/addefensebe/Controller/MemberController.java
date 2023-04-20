@@ -1,8 +1,8 @@
-package com.whispermy.advertise.Controller;
+package com.whispermy.addefensebe.Controller;
 
-import com.whispermy.advertise.Domain.Member;
-import com.whispermy.advertise.Dto.MemberDto;
-import com.whispermy.advertise.Service.MemberService;
+import com.whispermy.addefensebe.Domain.Member;
+import com.whispermy.addefensebe.Dto.MemberDto;
+import com.whispermy.addefensebe.Service.MemberService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Controller;

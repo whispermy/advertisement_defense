@@ -1,6 +1,6 @@
-package com.whispermy.advertise.Repository;
+package com.whispermy.addefensebe.Repository;
 
-        import com.whispermy.advertise.Domain.Member;
+        import com.whispermy.addefensebe.Domain.Member;
         import org.springframework.data.jpa.repository.JpaRepository;
 
         import java.util.Optional;

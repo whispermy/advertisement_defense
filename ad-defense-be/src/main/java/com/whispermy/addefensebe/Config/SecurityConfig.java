@@ -1,6 +1,6 @@
-package com.whispermy.advertise.Config;
+package com.whispermy.addefensebe.Config;
 
-import com.whispermy.advertise.Service.MemberService;
+import com.whispermy.addefensebe.Service.MemberService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.whispermy.advertise.Domain;
+package com.whispermy.addefensebe.Domain;
 
 import lombok.*;
 

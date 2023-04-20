@@ -1,13 +1,13 @@
-package com.whispermy.advertise;
+package com.whispermy.addefensebe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SimpleMemberApplication {
+public class AdDefenseBeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimpleMemberApplication.class, args);
+		SpringApplication.run(AdDefenseBeApplication.class, args);
 	}
 
 }

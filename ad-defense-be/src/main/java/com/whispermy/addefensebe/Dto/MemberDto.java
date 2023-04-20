@@ -1,6 +1,6 @@
-package com.whispermy.advertise.Dto;
+package com.whispermy.addefensebe.Dto;
 
-import com.whispermy.advertise.Domain.Member;
+import com.whispermy.addefensebe.Domain.Member;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
