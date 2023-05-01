@@ -1,0 +1,11 @@
+package com.whispermy.demo.repository;
+
+
+import com.whispermy.demo.domain.entity.AccessIp;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AccessIpRepository extends JpaRepository<AccessIp, Long> {
+
+    AccessIp findByIpAddress(String IpAddress);
+
+}
