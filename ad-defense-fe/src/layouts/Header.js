@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import SignUpModal from "../modal/signUpModal";
 
 const Header = () => {
+  const [signUpModalOn, setSignUpModalOn] = useState(false);
   return (
     <header>
+      <SignUpModal
+        show={signUpModalOn}
+        onHide={() => setSignUpModalOn(false)}
+      />
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -39,7 +45,11 @@ const Header = () => {
               </li>
             </ul>
             <form class="d-flex">
-              <button type="button" class="btn btn-dark">
+              <button
+                type="button"
+                onClick={() => setSignUpModalOn(true)}
+                class="btn btn-dark"
+              >
                 내 정보
               </button>
             </form>
