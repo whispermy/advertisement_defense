@@ -3,9 +3,9 @@ package com.whispermy.demo.domain.entity;
 import lombok.*;
 import org.springframework.security.web.authentication.rememberme.PersistentRememberMeToken;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 

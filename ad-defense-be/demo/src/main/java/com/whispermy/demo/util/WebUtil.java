@@ -2,7 +2,7 @@ package com.whispermy.demo.util;
 
 import org.springframework.security.web.savedrequest.SavedRequest;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 public class WebUtil {
     private static final String XML_HTTP_REQUEST = "XMLHttpRequest";

@@ -2,7 +2,7 @@ package com.whispermy.demo.security.authentication.services;
 
 import org.springframework.security.web.authentication.WebAuthenticationDetails;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 public class FormWebAuthenticationDetails extends WebAuthenticationDetails {
 
